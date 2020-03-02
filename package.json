@@ -1,0 +1,17 @@
+{
+  "name": "lean-git-cli",
+  "version": "1.0.0",
+  "description": "Useful Command Line Application For GIT",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namiduru/lean-git-cli.git"
+  },
+  "author": "Mehmet NAMIDURU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namiduru/lean-git-cli/issues"
+  },
+  "homepage": "https://github.com/namiduru/lean-git-cli#readme"
+}

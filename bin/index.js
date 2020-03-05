@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-console.log('It works');
+require('../src/git-lean');

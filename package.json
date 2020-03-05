@@ -2,8 +2,7 @@
   "name": "lean-git-cli",
   "version": "1.0.0",
   "description": "Useful Command Line Application For GIT",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/namiduru/lean-git-cli.git"
@@ -13,5 +12,12 @@
   "bugs": {
     "url": "https://github.com/namiduru/lean-git-cli/issues"
   },
-  "homepage": "https://github.com/namiduru/lean-git-cli#readme"
+  "homepage": "https://github.com/namiduru/lean-git-cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "minimist": "^1.2.0"
+  },
+  "bin": {
+    "git-lean": "./bin/index.js"
+  }
 }

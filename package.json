@@ -1,5 +1,5 @@
 {
-  "name": "lean-git-cli",
+  "name": "git-lean",
   "version": "1.0.0",
   "description": "Useful Command Line Application For GIT",
   "scripts": {},

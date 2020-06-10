@@ -10,7 +10,11 @@ const gitCommands = {
   patch: {
     command: 'git add . && git diff --cached > {0} && git reset',
     message: 'Excecuting: git-lean patch'
-  }
+  },
+  patchBinary: {
+    command: 'git add . && git diff --staged --binary > {0} && git reset',
+    message: 'Excecuting: git-lean patchBinary'
+  },
 }
 
 module.exports = gitCommands;

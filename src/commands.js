@@ -15,6 +15,10 @@ const gitCommands = {
     command: 'git add . && git diff --staged --binary > {0} && git reset',
     message: 'Excecuting: git-lean patchBinary'
   },
+  patchCommit: {
+    command: 'git format-patch -1 {0}',
+    message: 'Excecuting: git-lean patchCommit'
+  }
 }
 
 module.exports = gitCommands;

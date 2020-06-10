@@ -18,6 +18,10 @@ const gitCommands = {
   patchCommit: {
     command: 'git format-patch -1 {0}',
     message: 'Excecuting: git-lean patchCommit'
+  },
+  patchCommitAll: {
+    command: 'git format-patch origin/master --stdout > {0}',
+    message: 'Excecuting: git-lean patchCommitAll'
   }
 }
 

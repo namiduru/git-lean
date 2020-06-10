@@ -6,6 +6,10 @@ const gitCommands = {
   stashAndPop: {
     command: this.stash + ' && git stash pop',
     message: 'Executing: git-lean stashAndPop'
+  },
+  patch: {
+    command: 'git add . && git diff --cached > {0} && git reset',
+    message: 'Excecuting: git-lean patch'
   }
 }
 

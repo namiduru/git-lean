@@ -26,7 +26,7 @@ function generateFunctionCommand(arguments) {
     for (let i = 1; i < arguments.length; i++) {
       let placeholder = arguments[i];
 
-      command = command.replace('{' + i -1 + '}', placeholder);
+      command = command.replace('{' + (i - 1).toString() + '}', placeholder);
     }
   }
 
